@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/qor/middlewares"
-	"github.com/qor/qor/utils"
-	"github.com/qor/session"
-	"github.com/qor/session/manager"
+	"github.com/itech-eng/middlewares"
+	"github.com/itech-eng/qor/utils"
+	"github.com/itech-eng/session"
+	"github.com/itech-eng/session/manager"
 )
 
 var returnToKey utils.ContextKey = "redirect_back_return_to"
